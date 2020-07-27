@@ -1,0 +1,24 @@
+{
+  "name": "k8s-koa-logging-test-app",
+  "version": "1.0.0",
+  "description": "A simple Dockerized Node js app meant to test Kubernetes logging, It simply logs out HTTP requests to stdout or stderr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsSoufianeDev/k8s-koa-logging-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsSoufianeDev/k8s-koa-logging-test/issues"
+  },
+  "homepage": "https://github.com/itsSoufianeDev/k8s-koa-logging-test#readme",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-router": "^9.1.0"
+  }
+}
